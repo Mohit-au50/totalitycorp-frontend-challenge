@@ -12,7 +12,7 @@ const Footer = () => {
         <h1 className="text-[17px] font-medium  my-4">Support</h1>
         <div className="py-1">
           <p>Contact</p>
-          <a href="mailto:merndev@gmail.com">merndev0@gmail.com</a>
+          <a href="mailto:merndev0@gmail.com">merndev0@gmail.com</a>
         </div>
         <div className="py-1">
           <p>phone</p>

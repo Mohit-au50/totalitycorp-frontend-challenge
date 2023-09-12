@@ -15,7 +15,7 @@ const Layout = () => {
         <header className="bg-[whitesmoke] w-full h-20 fixed top-0 z-20">
           <Header />
         </header>
-        <main className="w-full">
+        <main className="w-full min-h-screen">
           <Outlet />
         </main>
         <footer className="bg-[whitesmoke] w-full">

@@ -50,7 +50,7 @@ const Products = () => {
               <strike className="text-gray-500 px-3">
                 {Math.ceil(item.price * 2)}
               </strike>
-              <span>&#x20B9;{item.price}</span>
+              <span>&#x20B9;{Math.floor(item.price)}</span>
             </div>
             <button
               onClick={() => addProduct(item)}

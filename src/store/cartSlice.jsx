@@ -9,13 +9,7 @@ const initialState = {
 const cartSlice = createSlice({
   name: "userBooking",
   initialState,
-  reducers: {
-    userCurrentbooking: (state, action) => {},
-    userTotalbooking: (state, action) => {},
-    addHotel: (state, action) => {},
-    removeHotel: (state, action) => {},
-    calculateTotal: (state, action) => {},
-  },
+  reducers: {},
 });
 
 export const { userbooking, remove, removeAll, calculateTotal } =
